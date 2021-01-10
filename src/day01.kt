@@ -2,7 +2,7 @@ import java.io.File
 
 fun main(){
 
-    val src = File("day01.txt").readLines()[0]
+    val src = File("inputs/day01.txt").readLines()[0]
 
     var floor = 0
     var basement = 0

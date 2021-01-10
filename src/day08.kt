@@ -2,7 +2,7 @@ import java.io.File
 
 fun main(){
 
-    val src = File("day08.txt").readLines()
+    val src = File("inputs/day08.txt").readLines()
 
     /* PART 1 */
     var literals = 0

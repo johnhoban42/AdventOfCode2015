@@ -1,0 +1,4 @@
+# IntelliJ Project extras
+.idea/*
+out/*
+*.iml

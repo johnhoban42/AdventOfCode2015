@@ -3,7 +3,7 @@ import java.lang.Math.min
 
 fun main(){
 
-    val src = File("day02.txt").readLines()
+    val src = File("inputs/day02.txt").readLines()
         .map{str -> str.split("x")}
 
     var area = 0 // PART 1

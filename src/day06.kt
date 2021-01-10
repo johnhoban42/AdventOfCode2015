@@ -2,7 +2,7 @@ import java.io.File
 
 fun main(){
 
-    val src = File("day06.txt").readLines()
+    val src = File("inputs/day06.txt").readLines()
 
     // Part 1: turn on = assign 1, turn off = assign 0, toggle = xor 1
     // Part 2: turn on = +1, turn off = -1, toggle = +2

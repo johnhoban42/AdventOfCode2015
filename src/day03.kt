@@ -2,7 +2,7 @@ import java.io.File
 
 fun main(){
 
-    val src = File("day03.txt").readLines()[0]
+    val src = File("inputs/day03.txt").readLines()[0]
 
     /* PART 1 */
     var houses = HashMap<List<Int>, Int>() // map of house coordinates and times visited

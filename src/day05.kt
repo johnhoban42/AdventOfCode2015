@@ -2,7 +2,7 @@ import java.io.File
 
 fun main(){
 
-    val src = File("day05.txt").readLines()
+    val src = File("inputs/day05.txt").readLines()
 
     /* PART 1 */
     val vowels = Regex("[aeiou].*[aeiou].*[aeiou]")
